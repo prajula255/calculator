@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Numpad() {
     return (
-       <React.Fragment>
+        <React.Fragment>
             <div className="row gap-3">
                 <div className="col">AC</div>
                 <div className="col">BS</div>
@@ -40,7 +40,7 @@ export default function Numpad() {
                 <div className="col">+-</div>
                 <div className="col">=</div>
             </div>
-        
+
         </React.Fragment>
     )
 }
